@@ -28,4 +28,18 @@ public func calculateDays(first firstDay :Int, secondDay :Int) -> Int
     return answer
 }
 calculateDays(first: 4, secondDay:5)
+public func name(friendName homeName :String) -> Void
+{
+    let info = "At home my name is " + homeName
+    print(info)
+}
+name(friendName: "Isaac")
 
+var guess= 453
+if(guess > 500)
+{
+    print("wahoo")
+}
+{
+    print("not likely")
+}
