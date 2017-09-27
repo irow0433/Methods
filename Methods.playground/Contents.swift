@@ -35,11 +35,18 @@ public func name(friendName homeName :String) -> Void
 }
 name(friendName: "Isaac")
 
-var guess= 453
+var guess = 453
 if(guess > 500)
 {
     print("wahoo")
 }
+else if(guess == 65)
 {
     print("not likely")
 }
+while (guess > 0)
+{
+    print("hahahahahahaha \(guess)")
+    guess -= 1
+}
+
